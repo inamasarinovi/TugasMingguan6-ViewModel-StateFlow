@@ -4,10 +4,10 @@
 MyReadingTracker merupakan aplikasi Android sederhana yang dikembangkan menggunakan Kotlin dan Jetpack Compose. Pada tugas pertemuan 6, aplikasi ini direfactor dengan menerapkan arsitektur UI Layer, ViewModel, StateFlow, dan Unidirectional Data Flow (UDF) untuk mengelola serta memperbarui data aplikasi.
 
 ## Identitas
-- Nama: [Isi nama lengkap]
-- NIM: [Isi NIM]
+- Nama: Novi Inama Sari
+- NIM: 0112523028
 - Mata Kuliah: Pemrograman Bergerak
-- Tugas: Pertemuan 6 – Refactor ViewModel & StateFlow
+- Pertemuan 6 – Refactor ViewModel & StateFlow
 
 ## Fitur Aplikasi
 - Menampilkan daftar mata kuliah.
@@ -36,7 +36,6 @@ MyReadingTracker merupakan aplikasi Android sederhana yang dikembangkan mengguna
 
 ## Penerapan ViewModel dan StateFlow
 Aplikasi menerapkan pola Unidirectional Data Flow (UDF), yaitu perubahan data dilakukan melalui event yang diteruskan dari UI ke ViewModel. ViewModel kemudian memperbarui state menggunakan MutableStateFlow dan menyediakan StateFlow sebagai state yang dapat diamati oleh UI.
-
 State dikumpulkan pada sisi Compose menggunakan `collectAsStateWithLifecycle()`.
 
 ## Cara Menjalankan Aplikasi
